@@ -2,7 +2,7 @@
 ## Mô tả hệ thống
 ### Hệ thống gồm 2 phần:
 - Server
-- Clien
+- Client
 ### Nguyên lý hoạt động hệ thống
 - client sẽ chụp ảnh màn hình liên tục (chụp bằng lớp Robot trong java,chụp theo size của màn hình client-chụp toàn bộ màn hình) và gửi cho server (gửi dạng ImageIcon bằng phương thức writeObject)
 - truyền thông bằng Socket: gửi nhận ảnh, gửi nhận các command điều khiển của server(xử lý Control trên máy khách)
